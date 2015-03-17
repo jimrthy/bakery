@@ -2,8 +2,7 @@
   "A sente client component."
   (:require-macros
    [com.palletops.api-builder.api :refer [defn-api]]
-   [cljs.core.async.macros :refer [go-loop]]
-   [schema.macros :refer [protocol]])
+   [cljs.core.async.macros :refer [go-loop]])
   (:require
    [cljs.core.async :refer [alts! chan close!]]
    [com.palletops.bakery.sente.protocols :as protocols]
